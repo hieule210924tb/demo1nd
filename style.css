@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+
+.wrapper{
+    width: 600px;
+    border: solid #4267b2 1px;
+    padding: 10px;
+}
+.wrapper h1{
+    text-align: center;
+    color: #0d0101;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.wrapper .input-box label{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.input-box{
+    display: block;
+    margin-bottom: 20px;
+}
+.form-input{
+    width: 95%;
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.error-message{
+    color: red;
+}
+.btn2{
+    display: none;
+}
+.wrapper .btn{
+    width: 96%;
+    height: 50px;
+    display: flex;
+}
+.wrapper .btn .btn1{
+    width: 35%;
+    height: 40px;
+    background-color: rgb(26 194 6);
+    border: none;
+    outline: none;
+    margin: -2px auto;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+.wrapper .btn .btn2{
+    width: 35%;
+    height: 40px;
+    background-color: rgb(194 188 6);
+    border: none;
+    outline: none;
+    margin: -2px auto;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+.wrapper .btn .btn1:hover, 
+.wrapper .btn .btn2:hover{
+    background: #9b510c;
+    color: red;
+    cursor: pointer;
+
+}
+table{
+    margin-left: 20px;
+}
